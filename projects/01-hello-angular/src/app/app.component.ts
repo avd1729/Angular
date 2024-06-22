@@ -13,6 +13,8 @@ import { RouterOutlet } from '@angular/router';
     <li> Avengers : Infinity War </li>
     </ol>
   `,
-  styles: ``,
+  styles: ` ol {
+    list-style-type: upper-roman;
+    }`,
 })
 export class AppComponent {}
