@@ -11,6 +11,9 @@ import { PostsComponent } from './posts/posts.component';
       <button #loadPosts>Load Posts</button>
       @defer (on interaction(loadPosts)) {
         <app-posts />
+      } 
+      @loading {
+        console.log("Loadinggg!!"); // 😂😂
       }
     </section>
   `,
